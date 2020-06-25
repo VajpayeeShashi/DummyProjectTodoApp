@@ -1,0 +1,364 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-22:12
+MERGED from [:react-native-i18n] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-i18n/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_async-storage] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-config] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-config/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fs] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-fs/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-screens] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.4] /Users/dev15/.gradle/caches/transforms-2/files-2.1/99976185759c8bd577ab85f18bcce47a/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/dev15/.gradle/caches/transforms-2/files-2.1/662c1d985c05b4cc434e13ab62227ac2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/52bdbaad22054a1b522f5fbd546500aa/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/12a87724b885d7fcafb52a2bd4f18193/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/75a083443e778c320327aaaca5bc355f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/2b94eaf32cf02e3db469d20bc5c9e1b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/60a90a812ab92f753477bffb1889dfce/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/78ee29ed26d857210a99b6210d86eb17/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1544c9a0a06a15637bfd8429d2dbfc2b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a0f500dac6417120ae7f991c68376499/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/c37ce8f61da4384ebc59d3d01fb084d1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b08d2b5ab4c9b76d140aa5449fd05abd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/14247f7c65cdfbfc511ad77d56896be7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/430a1e756ffaed84c7497cfe6c232a11/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/ac45af0084b8cc70648aa3deca7c1312/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/063629f63cc820cf410a54bbc3493ba3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/396811ac24d1ca161c25b9672ac29970/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/dev15/.gradle/caches/transforms-2/files-2.1/7af76e1fc9981e9e3db0e09a4c70cfa7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/325a36a1320ab53e8131b01bce1a6a08/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/910714c998c76d2f28e4ae5fef31ed28/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/d3955d852bae1c6422a8deeeefc1222c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1efe2b926df6bc8b0a75098766f44869/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/6c23810cb567fafe29d89c03baf49711/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/926cd79a06607213366ff8640633ddc3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/426b6ecdb146b5a9b1788fd84af3bdd4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/7776c5ed0d7c674a6ff413490a8f364b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e15b9ef1c269cd216cad2fb29b4fbd85/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/2f59968fee02c3166b05fb8e38b935fd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/038171183f7306778d708a2287eab57d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/f89b04260ade261961b3b7976de48f3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1a047da8b163483ee66c68fb2a560cda/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/192e0001e51e5e67c4aba5292e173c78/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/8b8171e14745fe796c7659e5bca16911/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/5e907ca127f02d05d03be68c027476a7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3173a96b10a78e10a029d7f297497dae/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a59e40a0898fa2db04392362fcd77062/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/f9f594a8aafcef42270643b6704284c5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e29aeec8bbdeeaf8421f2545e4175cbe/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/db404afb7dc7afd92c309056293ca71d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/9d1e701b150facf2f32d790eda9d545f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1459277a106a849e02ca0e14ebe9c2f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e26a14e03c26f7c8e458996bd0cd0254/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/0748b2774d3a1a3e82e6bb0eb01d727d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/56cdca4fbafd7b06e340e05ce54fa751/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/cbc23a23c41e20df4bf985ffc6ddf2dc/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/034cfaae8f2f68296a22c154e33e6f3e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/01cde77d6c277b00cedc352c0577742a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/c6033b9f65c1f2dee4694a0475c10071/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3c38dac88b7576a6ce15273582fc4edd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/9338975cea16c402f9b3fdf8d20fce71/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+	package
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:2:3-28
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:6:3-62
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:6:20-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:7:3-78
+MERGED from [:react-native-fs] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-fs/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-fs/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:7:20-76
+application
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:9:5-27:19
+MERGED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.61.4] /Users/dev15/.gradle/caches/transforms-2/files-2.1/99976185759c8bd577ab85f18bcce47a/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.4] /Users/dev15/.gradle/caches/transforms-2/files-2.1/99976185759c8bd577ab85f18bcce47a/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/52bdbaad22054a1b522f5fbd546500aa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/52bdbaad22054a1b522f5fbd546500aa/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/430a1e756ffaed84c7497cfe6c232a11/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/430a1e756ffaed84c7497cfe6c232a11/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/ac45af0084b8cc70648aa3deca7c1312/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/ac45af0084b8cc70648aa3deca7c1312/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/063629f63cc820cf410a54bbc3493ba3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/063629f63cc820cf410a54bbc3493ba3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3173a96b10a78e10a029d7f297497dae/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3173a96b10a78e10a029d7f297497dae/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a59e40a0898fa2db04392362fcd77062/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a59e40a0898fa2db04392362fcd77062/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3173a96b10a78e10a029d7f297497dae/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:11:7-39
+	android:roundIcon
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:13:7-52
+	android:icon
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:15:7-38
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.demotodoapp.MainActivity
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:16:7-25:18
+	android:label
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:18:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:19:9-79
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:17:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+action#android.intent.action.MAIN
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:22:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:23:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:26:7-84
+	android:name
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml:26:17-81
+uses-sdk
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-i18n] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-i18n/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-i18n] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-i18n/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_async-storage] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-config] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-config/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-config/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-fs/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-fs/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.4] /Users/dev15/.gradle/caches/transforms-2/files-2.1/99976185759c8bd577ab85f18bcce47a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.4] /Users/dev15/.gradle/caches/transforms-2/files-2.1/99976185759c8bd577ab85f18bcce47a/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/dev15/.gradle/caches/transforms-2/files-2.1/662c1d985c05b4cc434e13ab62227ac2/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/dev15/.gradle/caches/transforms-2/files-2.1/662c1d985c05b4cc434e13ab62227ac2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/52bdbaad22054a1b522f5fbd546500aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/52bdbaad22054a1b522f5fbd546500aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/12a87724b885d7fcafb52a2bd4f18193/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/12a87724b885d7fcafb52a2bd4f18193/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/75a083443e778c320327aaaca5bc355f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/75a083443e778c320327aaaca5bc355f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/2b94eaf32cf02e3db469d20bc5c9e1b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/2b94eaf32cf02e3db469d20bc5c9e1b3/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/60a90a812ab92f753477bffb1889dfce/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/60a90a812ab92f753477bffb1889dfce/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/78ee29ed26d857210a99b6210d86eb17/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/78ee29ed26d857210a99b6210d86eb17/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1544c9a0a06a15637bfd8429d2dbfc2b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1544c9a0a06a15637bfd8429d2dbfc2b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a0f500dac6417120ae7f991c68376499/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a0f500dac6417120ae7f991c68376499/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/c37ce8f61da4384ebc59d3d01fb084d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/c37ce8f61da4384ebc59d3d01fb084d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b08d2b5ab4c9b76d140aa5449fd05abd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b08d2b5ab4c9b76d140aa5449fd05abd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/14247f7c65cdfbfc511ad77d56896be7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/14247f7c65cdfbfc511ad77d56896be7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/430a1e756ffaed84c7497cfe6c232a11/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/430a1e756ffaed84c7497cfe6c232a11/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/ac45af0084b8cc70648aa3deca7c1312/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/ac45af0084b8cc70648aa3deca7c1312/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/063629f63cc820cf410a54bbc3493ba3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/063629f63cc820cf410a54bbc3493ba3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/396811ac24d1ca161c25b9672ac29970/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/396811ac24d1ca161c25b9672ac29970/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/dev15/.gradle/caches/transforms-2/files-2.1/7af76e1fc9981e9e3db0e09a4c70cfa7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/dev15/.gradle/caches/transforms-2/files-2.1/7af76e1fc9981e9e3db0e09a4c70cfa7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/325a36a1320ab53e8131b01bce1a6a08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/325a36a1320ab53e8131b01bce1a6a08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/910714c998c76d2f28e4ae5fef31ed28/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/910714c998c76d2f28e4ae5fef31ed28/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/d3955d852bae1c6422a8deeeefc1222c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/d3955d852bae1c6422a8deeeefc1222c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1efe2b926df6bc8b0a75098766f44869/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1efe2b926df6bc8b0a75098766f44869/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/6c23810cb567fafe29d89c03baf49711/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/6c23810cb567fafe29d89c03baf49711/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/926cd79a06607213366ff8640633ddc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/926cd79a06607213366ff8640633ddc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/426b6ecdb146b5a9b1788fd84af3bdd4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/426b6ecdb146b5a9b1788fd84af3bdd4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/7776c5ed0d7c674a6ff413490a8f364b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/7776c5ed0d7c674a6ff413490a8f364b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e15b9ef1c269cd216cad2fb29b4fbd85/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e15b9ef1c269cd216cad2fb29b4fbd85/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/2f59968fee02c3166b05fb8e38b935fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/2f59968fee02c3166b05fb8e38b935fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/038171183f7306778d708a2287eab57d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/038171183f7306778d708a2287eab57d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/f89b04260ade261961b3b7976de48f3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/f89b04260ade261961b3b7976de48f3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1a047da8b163483ee66c68fb2a560cda/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1a047da8b163483ee66c68fb2a560cda/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/192e0001e51e5e67c4aba5292e173c78/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/192e0001e51e5e67c4aba5292e173c78/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/8b8171e14745fe796c7659e5bca16911/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/8b8171e14745fe796c7659e5bca16911/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/5e907ca127f02d05d03be68c027476a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/5e907ca127f02d05d03be68c027476a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3173a96b10a78e10a029d7f297497dae/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3173a96b10a78e10a029d7f297497dae/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a59e40a0898fa2db04392362fcd77062/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a59e40a0898fa2db04392362fcd77062/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/f9f594a8aafcef42270643b6704284c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/f9f594a8aafcef42270643b6704284c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e29aeec8bbdeeaf8421f2545e4175cbe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e29aeec8bbdeeaf8421f2545e4175cbe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/db404afb7dc7afd92c309056293ca71d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/db404afb7dc7afd92c309056293ca71d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/9d1e701b150facf2f32d790eda9d545f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/9d1e701b150facf2f32d790eda9d545f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1459277a106a849e02ca0e14ebe9c2f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/1459277a106a849e02ca0e14ebe9c2f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e26a14e03c26f7c8e458996bd0cd0254/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/e26a14e03c26f7c8e458996bd0cd0254/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/0748b2774d3a1a3e82e6bb0eb01d727d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/0748b2774d3a1a3e82e6bb0eb01d727d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/56cdca4fbafd7b06e340e05ce54fa751/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/56cdca4fbafd7b06e340e05ce54fa751/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/cbc23a23c41e20df4bf985ffc6ddf2dc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/cbc23a23c41e20df4bf985ffc6ddf2dc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/034cfaae8f2f68296a22c154e33e6f3e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/034cfaae8f2f68296a22c154e33e6f3e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/01cde77d6c277b00cedc352c0577742a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/01cde77d6c277b00cedc352c0577742a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/c6033b9f65c1f2dee4694a0475c10071/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/c6033b9f65c1f2dee4694a0475c10071/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3c38dac88b7576a6ce15273582fc4edd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/3c38dac88b7576a6ce15273582fc4edd/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/9338975cea16c402f9b3fdf8d20fce71/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/9338975cea16c402f9b3fdf8d20fce71/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/android/app/src/main/AndroidManifest.xml
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-19:20
+	android:enabled
+		ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:react-native-device-info] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:25-76
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/dev15/Desktop/reactnativeproject/TodoDemoApp/DemoTodoApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/702eb4467fc2ffdcefdaf2619cd31a43/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/b3c0029efbdc429f157a0f8ca8bff351/AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/344f0fc8e2a34d304813f55ae522e596/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/dev15/.gradle/caches/transforms-2/files-2.1/a74d10509264edd93115d751bc56a3ec/AndroidManifest.xml:24:13-58
