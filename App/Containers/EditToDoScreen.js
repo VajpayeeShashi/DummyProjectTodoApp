@@ -42,7 +42,7 @@ class EditToDoScreen extends Component {
         console.log('User tapped custom button: ', response.customButton)
         alert(response.customButton)
       } else {
-        let source = response
+        let source = response.uri
         this.setState({
           pickedImage: source
         })
@@ -61,7 +61,7 @@ class EditToDoScreen extends Component {
           placeholder={'Description'}
           onChangeText={(text) => this.setState({description: text})} />
         <View style={styles.placeholder}>
-          <Image source={this.state.pickedImage} style={styles.previewImage} />
+          <Image source={{uri: this.state.pickedImage}} style={styles.previewImage} />
         </View>
         <TouchableOpacity style={styles.btnBg} >
           <Text style={styles.buttonText} onPress={() => this.pickImageHandler()}>Change Image</Text>

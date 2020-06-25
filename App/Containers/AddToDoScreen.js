@@ -48,10 +48,11 @@ class AddToDoScreen extends Component {
         console.log('User tapped custom button: ', response.customButton)
         alert(response.customButton)
       } else {
-        let source = response
+        let source = response.uri
         this.setState({
           pickedImage: source
         })
+        console.log('pickedImage link...', response.uri)
       }
     })
   }
@@ -68,7 +69,7 @@ class AddToDoScreen extends Component {
           placeholder={'Description'}
           onChangeText={(text) => this.setState({description: text})} />
         <View style={styles.placeholder}>
-          <Image source={this.state.pickedImage} style={styles.previewImage} />
+          <Image source={{uri: this.state.pickedImage}} style={styles.previewImage} />
         </View>
         <TouchableOpacity style={styles.btnBg} >
           <Text style={styles.buttonText} onPress={() => this.pickImageHandler()}>Pic Image</Text>
@@ -83,10 +84,12 @@ class AddToDoScreen extends Component {
     console.log('hi in addIteminTodo....', this.state.description)
  //   let imageUrl = this.state.pickedImage
     let descriptionObj = {
-      title: this.state.description
-     // imageTakenPerson: imageUrl
+      title: this.state.description,
+      imageTakenPerson: this.state.pickedImage
     }
+    console.log('hi in this.state.pickedImage', this.state.pickedImage)
     try {
+      console.log('hi in this.state.pickedImage', this.state.pickedImage)
       const AsyncStorage = new Store('store1')
       AsyncStorage.getItem('aray').then(async (value) => {
         if (value != null) {

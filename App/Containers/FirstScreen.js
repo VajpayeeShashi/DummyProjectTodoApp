@@ -16,9 +16,7 @@ class FirstScreen extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      loading: true,
-      page: 0,
-      posts: []
+      loading: true
     }
   }
   state = {
@@ -30,59 +28,28 @@ class FirstScreen extends Component {
   componentDidMount (): void {
     const AsyncStorage = new Store('store1')
     console.log('hi in asyncstorage....')
-    // AsyncStorage.getItem('aray').then((value) => {
-    //   if (value) {
-    //     console.log('value in first screen', JSON.parse(value))
-    //     this.setState({arrayList: JSON.parse(value)})
-    //     console.log('TRY length in asyncstorage....', JSON.parse(value).length)
-    //     console.log('all value asyncstorage....', JSON.parse(value))
-    //   }
-    //   console.log('no value in first screen')
-    // }).done()
-
+    AsyncStorage.getItem('aray').then((value) => {
+      if (value) {
+        console.log('value in first screen', JSON.parse(value))
+        // this.setState({arrayList: JSON.parse(value)})
+        this.setState({ arrayList: JSON.parse(value) })
+        console.log('TRY length in asyncstorage....', JSON.parse(value).length)
+        console.log('all value asyncstorage....', JSON.parse(value))
+      }
+      console.log('no value in first screen')
+    }).done()
     EventBus.getInstance().addListener('arayListUpdate', this.listener = data => {
       console.log('no value in EventBus.getInstance')
       AsyncStorage.getItem('aray').then((value) => {
         if (value) {
           console.log('value in first screen', JSON.parse(value))
           // this.setState({arrayList: JSON.parse(value)})
-          this.setState({
-            isLoading: false,
-            page: 0,
-            arrayList: JSON.parse(value)
-          }, function () {
-            // call the function to pull initial 12 records
-            this.addRecords(0)
-          })
+          this.setState({ arrayList: JSON.parse(value) })
           console.log('TRY length in asyncstorage....', JSON.parse(value).length)
           console.log('all value asyncstorage....', JSON.parse(value))
         }
         console.log('no value in first screen')
       }).done()
-    })
-  }
-  addRecords = (page) => {
-    console.log('addRecords methods...')
-    const newRecords = []
-    for (var i = page * 12, il = i + 12; i < il && i <
-    this.state.arrayList.length; i++) {
-      newRecords.push(this.state.arrayList[i])
-    }
-    // this.setState({
-    //   posts: [...this.state.posts, ...newRecords]
-    // })
-    this.setState({
-      arrayList: newRecords
-    })
-   // console.log('LengthaddRecords methods...', this.statearrayList.length)
-  }
-
-  onScrollHandler = () => {
-    console.log('onScrollHandler')
-    this.setState({
-      page: this.state.page + 1
-    }, () => {
-      this.addRecords(this.state.page)
     })
   }
   SearchFilterFunction (text) {
@@ -100,20 +67,6 @@ class FirstScreen extends Component {
       arrayList: newData,
       text: text
     })
-  }
-  renderFooter () {
-    return (
-      <View style={styles.footer}>
-        <TouchableOpacity activeOpacity={0.4} onPress={this.addRecords(1)} style={styles.loadMoreBtn}>
-          <Text style={styles.btnText}>Load More</Text>
-          {
-            (this.state.fetching_from_server)
-              ? <ActivityIndicator color='white' style={{ marginLeft: 8 }} />
-              : null
-          }
-        </TouchableOpacity>
-      </View>
-    )
   }
   render () {
     return (
@@ -135,15 +88,14 @@ class FirstScreen extends Component {
             data={this.state.arrayList}
             ItemSeparatorComponent={this.ListViewItemSeparator}
             keyExtractor={(item, index) => index.toString()}
-            ListFooterComponent={this.renderFooter.bind(this)}
             renderItem={({item, index}) => (
               <View style={styles.roundedBackDynamic}>
                 <Text style={styles.textInputStyle}
                   onPress={this.getListViewItem.bind(this, item)}>{item.title}</Text>
                 <View style={styles.viewBg} />
-                {/* <View style={styles.clickBg}> */}
-                {/*  <Image source={item.imageTakenPerson} style={styles.imgStyle} /> */}
-                {/* </View> */}
+                <View style={styles.clickBg}>
+                  <Image source={{uri: item.imageTakenPerson}} style={styles.imgStyle} />
+                </View>
                 <View style={styles.viewBg} />
                 <TouchableOpacity onPress={() => this.nextScreen(index)} style={styles.clickBg}>
                   <Image source={Images.editbtn} style={styles.imgStyle} />
@@ -174,7 +126,7 @@ class FirstScreen extends Component {
     this.setState({arrayList: cList})
    // currentListOfItems.push(descriptionObj)
     await AsyncStorage.setItem('aray', JSON.stringify(cList))
-   // alert(item.title)
+    console.log('deleted array....', JSON.stringify(cList))
   }
   getListViewItem = (item) => {
     alert(item.title)
